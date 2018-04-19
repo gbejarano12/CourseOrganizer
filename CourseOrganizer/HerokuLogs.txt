@@ -1,0 +1,76 @@
+2018-03-15T23:48:22.785379+00:00 heroku[web.1]: Unidling
+2018-03-15T23:48:22.785379+00:00 heroku[web.1]: State changed from down to starting
+2018-03-15T23:48:25.859936+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-03-15T23:48:28.962346+00:00 app[web.1]: 
+2018-03-15T23:48:28.962385+00:00 app[web.1]: > courseorganizer@0.0.0 start /app
+2018-03-15T23:48:28.962391+00:00 app[web.1]: > node ./bin/www
+2018-03-15T23:48:28.962392+00:00 app[web.1]: 
+2018-03-15T23:48:29.715100+00:00 heroku[web.1]: State changed from starting to up
+2018-03-15T23:48:31.443605+00:00 heroku[router]: at=info method=GET path="/" host=gentle-beach-64504.herokuapp.com request_id=abcdc771-f413-466a-8672-1b709949e40d fwd="75.166.173.29" dyno=web.1 connect=0ms service=570ms status=200 bytes=2075 protocol=https
+2018-03-15T23:48:31.336162+00:00 app[web.1]: Warning: missing space before text for line 16 of jade file "/app/app_server/views/course-list.jade"
+2018-03-15T23:48:31.337252+00:00 app[web.1]: Warning: missing space before text for line 18 of jade file "/app/app_server/views/course-list.jade"
+2018-03-15T23:48:31.435704+00:00 app[web.1]: [0mGET / [32m200 [0m553.039 ms - 1872[0m
+2018-03-15T23:48:31.691705+00:00 heroku[router]: at=info method=GET path="/stylesheets/style.css" host=gentle-beach-64504.herokuapp.com request_id=345974c1-5395-432e-8943-3f8a5c875503 fwd="75.166.173.29" dyno=web.1 connect=0ms service=17ms status=200 bytes=283 protocol=https
+2018-03-15T23:48:31.681110+00:00 app[web.1]: [0mGET /stylesheets/style.css [32m200 [0m10.301 ms - -[0m
+2018-03-15T23:48:31.997503+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=gentle-beach-64504.herokuapp.com request_id=24ed743c-c451-460b-a248-00400ab72f46 fwd="75.166.173.29" dyno=web.1 connect=0ms service=49ms status=404 bytes=1131 protocol=https
+2018-03-15T23:48:31.986763+00:00 app[web.1]: [0mGET /favicon.ico [33m404 [0m45.534 ms - 922[0m
+2018-03-15T23:48:43.769631+00:00 heroku[router]: at=info method=GET path="/course" host=gentle-beach-64504.herokuapp.com request_id=094c79e3-e4c9-440d-b426-f7f4f17edbb8 fwd="75.166.173.29" dyno=web.1 connect=0ms service=80ms status=200 bytes=2235 protocol=https
+2018-03-15T23:48:43.758278+00:00 app[web.1]: [0mGET /course [32m200 [0m74.998 ms - 2032[0m
+2018-03-15T23:48:43.870143+00:00 app[web.1]: [0mGET /stylesheets/style.css [36m304 [0m8.851 ms - -[0m
+2018-03-15T23:48:43.881747+00:00 heroku[router]: at=info method=GET path="/stylesheets/style.css" host=gentle-beach-64504.herokuapp.com request_id=93922be7-391d-42a8-a5c1-879005f5c6f3 fwd="75.166.173.29" dyno=web.1 connect=0ms service=13ms status=304 bytes=235 protocol=https
+2018-03-15T23:56:57.024056+00:00 heroku[router]: at=info method=GET path="/" host=gentle-beach-64504.herokuapp.com request_id=540af3be-82a4-404d-8451-ea21c754c2d9 fwd="75.166.173.29" dyno=web.1 connect=1ms service=7ms status=304 bytes=151 protocol=https
+2018-03-15T23:56:57.023112+00:00 app[web.1]: [0mGET / [36m304 [0m5.172 ms - -[0m
+2018-03-15T23:56:57.167168+00:00 app[web.1]: [0mGET /stylesheets/style.css [36m304 [0m0.736 ms - -[0m
+2018-03-15T23:56:57.168344+00:00 heroku[router]: at=info method=GET path="/stylesheets/style.css" host=gentle-beach-64504.herokuapp.com request_id=17ff9ce6-6b00-41bc-8a48-78f04a56bb99 fwd="75.166.173.29" dyno=web.1 connect=1ms service=3ms status=304 bytes=235 protocol=https
+2018-03-15T23:56:59.149691+00:00 heroku[router]: at=info method=GET path="/course" host=gentle-beach-64504.herokuapp.com request_id=c1c40cea-b604-4352-b379-43b6193cde56 fwd="75.166.173.29" dyno=web.1 connect=1ms service=4ms status=304 bytes=151 protocol=https
+2018-03-15T23:56:59.340945+00:00 heroku[router]: at=info method=GET path="/stylesheets/style.css" host=gentle-beach-64504.herokuapp.com request_id=83db9d86-7985-409d-bfa4-58aa6ce206e2 fwd="75.166.173.29" dyno=web.1 connect=1ms service=2ms status=304 bytes=235 protocol=https
+2018-03-15T23:56:59.148893+00:00 app[web.1]: [0mGET /course [36m304 [0m0.888 ms - -[0m
+2018-03-15T23:56:59.339990+00:00 app[web.1]: [0mGET /stylesheets/style.css [36m304 [0m0.796 ms - -[0m
+2018-03-15T23:57:02.395212+00:00 app[web.1]: [0mGET /course/assignment/new [32m200 [0m80.384 ms - 2092[0m
+2018-03-15T23:57:02.567935+00:00 app[web.1]: [0mGET /stylesheets/style.css [36m304 [0m3.513 ms - -[0m
+2018-03-15T23:57:02.396555+00:00 heroku[router]: at=info method=GET path="/course/assignment/new" host=gentle-beach-64504.herokuapp.com request_id=c46bea30-6d63-40b5-a530-14f45e8a3528 fwd="75.166.173.29" dyno=web.1 connect=1ms service=82ms status=200 bytes=2295 protocol=https
+2018-03-15T23:57:02.569031+00:00 heroku[router]: at=info method=GET path="/stylesheets/style.css" host=gentle-beach-64504.herokuapp.com request_id=1f226714-3db2-4214-ae5c-25d86b80937f fwd="75.166.173.29" dyno=web.1 connect=2ms service=10ms status=304 bytes=235 protocol=https
+2018-03-16T00:28:06.959534+00:00 heroku[router]: at=info method=GET path="/course" host=gentle-beach-64504.herokuapp.com request_id=cb609176-c68b-429d-a07a-842f60b24026 fwd="75.166.173.29" dyno=web.1 connect=0ms service=6ms status=304 bytes=151 protocol=https
+2018-03-16T00:28:07.078466+00:00 heroku[router]: at=info method=GET path="/stylesheets/style.css" host=gentle-beach-64504.herokuapp.com request_id=b26d9f48-4073-4869-ae2d-948a16c2b349 fwd="75.166.173.29" dyno=web.1 connect=6ms service=5ms status=304 bytes=235 protocol=https
+2018-03-16T00:28:06.959272+00:00 app[web.1]: [0mGET /course [36m304 [0m2.459 ms - -[0m
+2018-03-16T00:28:07.077309+00:00 app[web.1]: [0mGET /stylesheets/style.css [36m304 [0m0.424 ms - -[0m
+2018-03-16T00:36:05.788184+00:00 heroku[router]: at=info method=GET path="/" host=gentle-beach-64504.herokuapp.com request_id=06e0010f-2fd1-4566-bd85-489b1d2ffc31 fwd="75.166.173.29" dyno=web.1 connect=0ms service=4ms status=304 bytes=151 protocol=https
+2018-03-16T00:36:05.884006+00:00 heroku[router]: at=info method=GET path="/stylesheets/style.css" host=gentle-beach-64504.herokuapp.com request_id=bdcd8154-ef23-49c3-8574-09c9bf85c826 fwd="75.166.173.29" dyno=web.1 connect=0ms service=8ms status=304 bytes=235 protocol=https
+2018-03-16T00:36:05.788253+00:00 app[web.1]: [0mGET / [36m304 [0m0.830 ms - -[0m
+2018-03-16T00:36:05.885677+00:00 app[web.1]: [0mGET /stylesheets/style.css [36m304 [0m1.042 ms - -[0m
+2018-03-16T00:36:08.473690+00:00 heroku[router]: at=info method=GET path="/course" host=gentle-beach-64504.herokuapp.com request_id=1bb83310-2f38-4371-bfb3-895457462a6e fwd="75.166.173.29" dyno=web.1 connect=0ms service=3ms status=304 bytes=151 protocol=https
+2018-03-16T00:36:08.474600+00:00 app[web.1]: [0mGET /course [36m304 [0m1.457 ms - -[0m
+2018-03-16T00:36:08.569627+00:00 app[web.1]: [0mGET /stylesheets/style.css [36m304 [0m2.156 ms - -[0m
+2018-03-16T00:36:08.569905+00:00 heroku[router]: at=info method=GET path="/stylesheets/style.css" host=gentle-beach-64504.herokuapp.com request_id=ff33dc28-d2b6-4126-bbd8-6d1e24609b8c fwd="75.166.173.29" dyno=web.1 connect=0ms service=5ms status=304 bytes=235 protocol=https
+2018-03-16T00:36:10.032820+00:00 heroku[router]: at=info method=GET path="/stylesheets/style.css" host=gentle-beach-64504.herokuapp.com request_id=c2b9d9e0-22b1-4b2e-bed3-5fe2ccc3e05d fwd="75.166.173.29" dyno=web.1 connect=0ms service=5ms status=304 bytes=235 protocol=https
+2018-03-16T00:36:09.947717+00:00 app[web.1]: [0mGET / [36m304 [0m3.189 ms - -[0m
+2018-03-16T00:36:10.032944+00:00 app[web.1]: [0mGET /stylesheets/style.css [36m304 [0m0.493 ms - -[0m
+2018-03-16T00:36:09.947621+00:00 heroku[router]: at=info method=GET path="/" host=gentle-beach-64504.herokuapp.com request_id=7fe0782d-0197-404b-a2fb-d7ca32267019 fwd="75.166.173.29" dyno=web.1 connect=0ms service=7ms status=304 bytes=151 protocol=https
+2018-03-16T00:44:10.153252+00:00 heroku[web.1]: Restarting
+2018-03-16T00:44:10.153910+00:00 heroku[web.1]: State changed from up to starting
+2018-03-16T00:44:11.249552+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-03-16T00:44:11.362205+00:00 heroku[web.1]: Process exited with status 143
+2018-03-16T00:44:12.373436+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-03-16T00:44:14.725362+00:00 app[web.1]: 
+2018-03-16T00:44:14.725393+00:00 app[web.1]: > courseorganizer@0.0.0 start /app
+2018-03-16T00:44:14.725395+00:00 app[web.1]: > node ./bin/www
+2018-03-16T00:44:14.725396+00:00 app[web.1]: 
+2018-03-16T00:44:16.061741+00:00 heroku[web.1]: State changed from starting to up
+2018-03-16T01:18:39.970359+00:00 heroku[web.1]: Idling
+2018-03-16T01:18:39.971010+00:00 heroku[web.1]: State changed from up to down
+2018-03-16T01:18:41.177504+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-03-16T01:18:41.259093+00:00 heroku[web.1]: Process exited with status 143
+2018-03-16T02:04:51.665595+00:00 heroku[web.1]: State changed from down to starting
+2018-03-16T02:04:54.156610+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-03-16T02:04:56.637093+00:00 app[web.1]: 
+2018-03-16T02:04:56.637124+00:00 app[web.1]: > courseorganizer@0.0.0 start /app
+2018-03-16T02:04:56.637127+00:00 app[web.1]: > node ./bin/www
+2018-03-16T02:04:56.637128+00:00 app[web.1]: 
+2018-03-16T02:04:57.244410+00:00 app[web.1]: Mongoose connected to mongodb://[MY_MONGOLAB_URI]
+2018-03-16T02:04:57.642396+00:00 heroku[web.1]: State changed from starting to up
+2018-03-16T02:05:13.982181+00:00 app[web.1]: Warning: missing space before text for line 16 of jade file "/app/app_server/views/course-list.jade"
+2018-03-16T02:05:13.982491+00:00 app[web.1]: Warning: missing space before text for line 18 of jade file "/app/app_server/views/course-list.jade"
+2018-03-16T02:05:14.047600+00:00 app[web.1]: [0mGET / [36m304 [0m349.951 ms - -[0m
+2018-03-16T02:05:14.150561+00:00 app[web.1]: [0mGET /stylesheets/style.css [32m200 [0m7.458 ms - -[0m
+2018-03-16T02:05:14.045936+00:00 heroku[router]: at=info method=GET path="/" host=gentle-beach-64504.herokuapp.com request_id=0bb50c93-8c83-4554-aa99-064a434c6532 fwd="75.166.173.29" dyno=web.1 connect=0ms service=358ms status=304 bytes=151 protocol=https
+2018-03-16T02:05:14.149745+00:00 heroku[router]: at=info method=GET path="/stylesheets/style.css" host=gentle-beach-64504.herokuapp.com request_id=3377d1a2-d9e2-4b80-8cc7-9843ffa01eca fwd="75.166.173.29" dyno=web.1 connect=0ms service=10ms status=200 bytes=283 protocol=https

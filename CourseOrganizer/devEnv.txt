@@ -1,0 +1,10 @@
+[33m[nodemon] 1.15.1[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+Mongoose connected to mongodb://localhost/CourseOrganizer
+Mongoose disconnected
+Mongoose disconnected through app termination
+Terminate batch job (Y/N)? 
+
+C:\School\csci446\unit8\CourseOrganizer>
