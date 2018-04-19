@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  #banner.page-header
+    .row
+      .col-lg-10
+        h1= pageHeader.title
+          small &nbsp;#{pageHeader.strapline}
+  .row.mt-4
+    .col-xs-12.col-sm-6
+      .error= message
+      .row.list-group
+        each course in courses
+          .col-xs-12.list-group-item.bg-primary
+            h3
+              a.text-warning(href="/course/" + course._id)= course.courseId
+              &nbsp; &nbsp;
+              span.text-white= course.name
+              &nbsp; &nbsp;
+              span.text-white= course.instructor

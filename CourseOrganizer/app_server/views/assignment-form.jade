@@ -1,0 +1,33 @@
+extends layout
+
+block content
+  .row.page-header
+    .col-lg-12
+      h1= pageHeader.title + pageHeader.courseId
+  .row
+    .col-xs-12.col-md-6
+      form.form-horizontal#addAssignment(action="", method="post", role="form")
+        - if (error == "val")
+          .alert.alert-danger(role="alert") All fields required, please try again
+        - if (error == "points")
+          .alert.alert-danger(role="alert") Points must be between 0-100, please try again
+        .form-group
+          label.col-xs-10.col-sm-2.control-label(for="name") Name
+          .col-xs-12.col-sm-8
+            input#name.form-control(name="name", value=course.assignments[0].name)
+        .form-group
+          label.col-xs-10.col-sm-2.control-label(for="due") Due
+          .col-xs-12.col-sm-8
+            input#due.form-control(name="due", value=course.assignments[0].dueDate)
+        .form-group
+          label.col-xs-10.col-sm-2.control-label(for="points") Points
+          .col-xs-12.col-sm-8
+            input#points.form-control(name="points", value=course.assignments[0].points)
+        .form-group
+          label.col-xs-12.col-sm-2.control-label(for="status") Status
+          .col-xs-12.col-sm-4
+            select#status.form-control.input-sm(name="status")
+              option(selected=course.assignments[0].status === "Not started" ? true : false) Not started
+              option(selected=course.assignments[0].status === "In progress" ? true : false) In progress
+              option(selected=course.assignments[0].status === "Submitted" ? true : false) Submitted
+        button.btn.btn-info.float-right Submit

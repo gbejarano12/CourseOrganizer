@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  .row.page-header
+    .col-lg-12
+      h1= pageHeader.title
+  .row
+    p.mt-1 Instructor: #{course.instructor}
+  .row
+    p.mt-1 Credits: #{course.credits}
+  .row
+    p.my-1 When and Where: #{course.location}
+  .row
+    a.btn.btn-info.my-2(href="/course/" + course._id + "/assignment/new") Add assignment
+    a.btn.btn-info.my-2.ml-2.bg-success(href="/course/" + course._id) Show all assignments
+    a.btn.btn-info.my-2.ml-2.bg-success(href="/course/" + course._id + "/unsubmitted") Show only unsubmitted assignments
+  .row
+    .col-xs-12.col-md-9
+      .card.card-primary
+        each assignment in course.assignments
+          .card-header.bg-dark.text-white
+            h2
+              a.text-success(href="/course/" + course._id + "/assignment/" + assignment._id + "/edit")= assignment.name
+            a.btn.btn-info.float-right(href="/course/" + course._id + "/assignment/" + assignment._id + "/delete") Delete
+          .card-body.bg-light
+            .card-text
+              p Due: #{assignment.dueDate}
+              p Points: #{assignment.points}
+              p Status: #{assignment.status}
